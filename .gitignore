@@ -9,7 +9,7 @@
 *.class
 target/
 build/
-
+!processing_result
 userdb.mv.db
 
 # execution artefacts
