@@ -34,7 +34,6 @@ object JobRunner extends Serializable {
   def buildSparkSession(name: String): SparkSession = {
     SparkSession.builder
       .appName(s"$name processing")
-      .master("local[*]")
       .getOrCreate()
   }
 

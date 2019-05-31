@@ -9,7 +9,7 @@ object NetProfitByCountryLocalRunner {
     val spark = getSparkSession()
 
     val path = System.getProperty("user.dir")
-    NetProfitByCountry.process(spark, JobParameters("src/test/resources/", 8, 1, s"$path/out/net_country_profit.csv"))
+    NetProfitByCountry.process(spark, JobParameters("src/test/resources/", 8, 1, s"$path/processing_result/net_country_profit.csv"))
     spark.close()
   }
 

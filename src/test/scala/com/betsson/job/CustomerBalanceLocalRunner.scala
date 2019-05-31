@@ -9,7 +9,7 @@ object CustomerBalanceLocalRunner {
     val spark = getSparkSession()
 
     val path = System.getProperty("user.dir")
-    CustomerBalance.process(spark, JobParameters("src/test/resources/", 8, 1, s"$path/out/customers_balance.csv"))
+    CustomerBalance.process(spark, JobParameters("src/test/resources/", 8, 1, s"$path/processing_result/customers_balance.csv"))
     spark.close()
   }
 

@@ -14,7 +14,6 @@ userdb.mv.db
 
 # execution artefacts
 *.log
-*.out
 *.pid
 
 # gradle
