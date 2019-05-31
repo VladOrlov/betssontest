@@ -1,0 +1,64 @@
+# build artefacts
+*.7z
+*.gz
+*.tar
+*.zip
+*.dmg
+# *.jar
+*.war
+*.class
+target/
+build/
+
+userdb.mv.db
+
+# execution artefacts
+*.log
+*.out
+*.pid
+
+# gradle
+.gradle
+
+# sbt specific
+.cache
+.cache-main
+.cache-tests
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Idea
+.idea/
+*.iml
+*.iws
+*.ipr
+venv
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# NodeJS
+node_modules/
+
+# MacOS X
+.DS_Store
+
